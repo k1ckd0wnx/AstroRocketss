@@ -7,5 +7,7 @@ author: TurtleSh0ck
 commands:
  ar:
    description: "AstroRockets"
-   permission: ar.cmd
+   permissions:
+     ar.cmd
+       default: op
   
