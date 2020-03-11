@@ -8,6 +8,6 @@ commands:
  ar:
    description: "AstroRockets"
    permissions:
-     ar.cmd
+     ar.cmd:
        default: op
   
