@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AstroRockets;
+namespace TurtleSh0ck\AstroRockets;
 
 
 use pocketmine\item\ItemIds;
@@ -75,14 +75,14 @@ class Main extends PluginBase implements Listener {
 
          public function onInteract(PlayerInteractEvent $event) {
          if($event->getItem()->getId() === 401) {
-         $item = $pl->getInventory()->getItemInHand();
-		if ($item->getId() == 0) {
+         $player = $event->getPlayer();	
+         $item = $player->getInventory()->getItemInHand();
+		 if ($item->getId() == 0) {
 			return;
 		}
-		if(!$item->getNamedTag()->hasTag("astrorockets", StringTag::class)) {
+		 if(!$item->getNamedTag()->hasTag("astrorockets", StringTag::class)) {
 			return;
 		}
-     	$player = $event->getPlayer();
          $player->setMotion(new Vector3(0, 1, 0));
          $inv = $player->getInventory();
          $item = $inv->getItemInHand();
