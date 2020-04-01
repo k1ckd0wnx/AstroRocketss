@@ -54,7 +54,7 @@ class Main extends PluginBase implements Listener {
                                 return true;
                             }
                             $fireworks = Item::get(Item::FIREWORKS);
-                            $fireworks->setCustomName(TF::RED . "§lPiffi's Rocket");
+                            $fireworks->setCustomName(TF::RED . "Astro Rocket");
                             $fireworks->setLore([TF::GREEN . "Use to boost urself into the sky!"]);
                             $nbt = $fireworks->getNamedTag();
 							$nbt->setString("astrorockets", 'mhm', true);
