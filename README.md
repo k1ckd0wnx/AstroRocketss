@@ -1,10 +1,10 @@
 # AstroRocketss
 # Boost ur self in the sky
-$ Escape from traps!
+# Escape from traps!
 
-#Made by TurtleSh0ck
+# Made by TurtleSh0ck
 
-#discord : https://discord.gg/WZrzbsJ
+# Discord : https://discord.gg/WZrzbsJ
 
 
 ...
